@@ -12,5 +12,5 @@ console.table(listEndpoints(server)) // TO PRINT THE END POINT TABLE ON TERMINAL
 
 const port = 3001
 server.listen(port, () => {
-  console.log("SEREVER IS RUNNING ON PORT", port)
+  console.log("SEREVER IS 🏃‍♂️🏃‍♂️🏃‍♂️🏃‍♂️ ON PORT", port)
 })

@@ -29,7 +29,7 @@ authorsRouter.post("/", (req, res) => {
     const AuthorsJsonArray = readAuthors()
     AuthorsJsonArray.push(newAuthor)
     writeAuthors(AuthorsJsonArray)
-    res.status(201).send({ id: newAuthor.id }, "AUTHOR CREATED")
+    res.status(201).send({ id: newAuthor.id })
   } catch (error) {
     console.log(error)
   }
